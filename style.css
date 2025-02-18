@@ -81,6 +81,28 @@ body
   .site-footer {
     display: flex;
     justify-content: space-between;
-    
+  }
+  
+  #btn_LoveWishes {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 117, 140, 0.3);
+  }
+  
+  #btn_LoveWishes:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    box-shadow: 0 6px 15px rgba(255, 117, 140, 0.5);
+  }
+  
+  #btn_LoveWishes:active {
+    transform: scale(0.95);
   }
   
