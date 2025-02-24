@@ -1,8 +1,9 @@
 body 
 {
   
-    background: url("../img/muffin-background.jpg")  no-repeat    ;
+    background: url("../img/muffin-background.jpg");
     background-size: cover;
+    background-position: center;
 }
   
   h1 {
